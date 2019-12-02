@@ -1,0 +1,17 @@
+Pierre  Pierre Pierre   10950     20   0  1  NNP
+Vinken  Vinken Vinken   14665     20   0  1  NNP
+,  , ,     224      5   0  0  , JJ NN UH
+61  ## ##       2      9   0  0
+years  years year   35339     22   1  0  NN JJ
+old  old old   27434     14   0  0  JJ
+,  , ,     224      5   0  0  , JJ NN UH
+will  will will   35117     18   0  0  MD VBP NN RB VB
+join  join join   24798     34   0  0  VB VBP
+the  the the   33178     10   0  0  DT VBD VBP NN|DT IN JJ NN NNP PDT
+board  board board   17297     19   0  0  NN RB VB
+as  as as   16422     13   0  0  IN NNP JJ RB
+a  a a   15473     10   0  0  DT VB , VBN NNP FW JJ LS NN
+nonexecutive  nonexecutive nonexecutive   27136     14   0  0  JJ
+director  director director   20194     19   0  0  NN
+Nov.  Nov. Nov.   10098     20   0  1  NNP NN VB
+29  ## ##       2      9   0  0

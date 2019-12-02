@@ -1,0 +1,43 @@
+void retrieve(char* name)
+{
+	int flag = 0;
+	nodeptr curr = root;
+	int i = -1;
+	int height = 0;
+
+	while (i < MAXK && curr && flag == 0) {
+		
+
+		i++;
+			if (i == curr->fill_cnt) {
+				curr = curr->ptr[i];
+				i = -1;
+				height++;
+		}
+			if (i <= curr->fill_cnt && curr != NULL) {
+
+				if (strcmp(name, curr->rec[i].word) == 0) {
+					flag = 1;
+					break;
+				}
+				else if (strcmp(name, curr->rec[i].word) > 0) {
+
+				}
+				else if (strcmp(name, curr->rec[i].word) < 0) {
+					curr = curr->ptr[i];
+					i = -1;
+					height++;
+				}
+			}
+
+	}
+
+	if (flag == 0) {
+		printf("검색 실패 : %s\n", name);
+	}
+
+	else {
+		printf("검색 성공 : %s 노드 깊이 : %d \n", name, height);
+		printf("이름 : %s \t 품사 : %s \n", curr->rec[i].word, curr->rec[i].pos);
+	}
+}
